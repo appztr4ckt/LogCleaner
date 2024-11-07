@@ -1,7 +1,12 @@
 log-cleaning:
-# “days” for deletion after days, “amount” for deletion after number of logs
+  # “days” for deletion after days, “amount” for deletion after number of logs
   mode: "days"
-# Number of days after which the logs will be deleted if 'mode' is 'days'
+
+  # Number of days after which the logs will be deleted if 'mode' is 'days'
   days: 3
-# Number of .log.gz files to keep when 'mode' is 'amount'
+
+  # Number of .log.gz files to keep when 'mode' is 'amount'
   keep-logs: 3
+
+  # Delete crash reports (those are fucking useless lmao)
+  delete-crash-reports: true

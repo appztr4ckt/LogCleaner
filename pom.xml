@@ -6,7 +6,7 @@
 
   <groupId>me.appztr4ckt</groupId>
   <artifactId>LogCleaner</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.4-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>LogCleaner</name>

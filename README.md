@@ -15,13 +15,3 @@
 2. Start your server to generate the `config.yml` file.
 3. Adjust the settings in the `config.yml` to suit your needs.
 4. Restart the server to apply the changes.
-
-## Configuration
-
-The `config.yml` looks like this:
-
-```yaml
-log-cleaning:
-  mode: "days"  # "days" to delete based on age, "amount" to delete based on number of logs
-  days: 3       # Number of days after which logs will be deleted if 'mode' is set to 'days'
-  keep-logs: 3  # Number of .log.gz files to retain if 'mode' is set to 'amount'
